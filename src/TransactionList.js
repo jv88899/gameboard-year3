@@ -11,27 +11,27 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `2`,
       transactionNumber: `002`,
       route: `004`,
-      description: `Collect $22 cash from customers`,
+      description: `Collect $22 cash from customers for Year 3 sales`,
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `3`,
       transactionNumber: `003`,
       route: `007`,
-      description: `Pay $1 of known claims from Year 2 in Year 3`,
+      description: `Pay $1 for known claims from Year 2 in Year 3`,
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `4`,
@@ -41,7 +41,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `5`,
@@ -51,7 +51,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `6`,
@@ -61,7 +61,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `7`,
@@ -71,7 +71,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `8`,
@@ -81,7 +81,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `9`,
@@ -91,7 +91,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `10`,
@@ -101,7 +101,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `11`,
@@ -111,7 +111,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `12`,
@@ -121,7 +121,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `13`,
@@ -131,7 +131,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `14`,
@@ -141,7 +141,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `15`,
@@ -151,7 +151,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `16`,
@@ -161,7 +161,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `17`,
@@ -171,7 +171,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
+      isCashTransaction: false,
     },
     {
       stepNumber: `18`,
@@ -181,8 +181,8 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       activeStep: null,
       previousStep: null,
       visible: true,
-      isCashTransaction: false
-    }
+      isCashTransaction: false,
+    },
   ]);
   const [highlightCashTransactions, setHighlightCashTransactions] = useState(
     false
@@ -203,7 +203,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
             </h3>
           </span>
         </div>
-        {transactions.map(transaction => (
+        {transactions.map((transaction) => (
           <Transaction
             description={transaction.description}
             key={transaction.transactionNumber}
