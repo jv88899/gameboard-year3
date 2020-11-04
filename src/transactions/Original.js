@@ -1,7 +1,7 @@
 import React from "react";
 import TransactionList from "../TransactionList";
 
-const Original = ({ companyName }) => (
+const Transaction001 = ({ companyName }) => (
   <>
     <TransactionList activeStep={`001`} />
     <div className="board-wrapper">
@@ -118,11 +118,11 @@ const Original = ({ companyName }) => (
                   <ul className="balance-sheet-assets">
                     <li>
                       <span className="item-name green">Cash</span>
-                      <span className="item-total">6</span>
+                      <span className="item-total">4</span>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>
-                      <span className="item-total">6</span>
+                      <span className="item-total">3</span>
                     </li>
                     <li>
                       <span className="item-name blue">
@@ -134,7 +134,7 @@ const Original = ({ companyName }) => (
                       <span className="item-name blue">
                         Property & Equipment
                       </span>
-                      <span className="item-total">5</span>
+                      <span className="item-total">4</span>
                     </li>
                   </ul>
                 </div>
@@ -148,7 +148,7 @@ const Original = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
-                      <span className="item-total">2</span>
+                      <span className="item-total">4</span>
                     </li>
                     <li>
                       <span className="item-name blue">Salary Payable</span>
@@ -156,7 +156,7 @@ const Original = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">Broker Payable</span>
-                      <span className="item-total">1</span>
+                      <span className="item-total">0</span>
                     </li>
                     <li>
                       <span className="item-name blue">Accounts Payable</span>
@@ -174,7 +174,7 @@ const Original = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">Unearned Premiums</span>
-                      <span className="item-total">10</span>
+                      <span className="item-total">8</span>
                     </li>
                   </ul>
                 </div>
@@ -183,8 +183,8 @@ const Original = ({ companyName }) => (
             <div className="net-assets">
               <h5>Net Assets</h5>
               <div className="net-assets-inner-wrapper">
+                <span className="item-total">1</span>
                 <span className="item-total">0</span>
-                <span className="item-total">4</span>
               </div>
             </div>
           </div>
@@ -245,4 +245,4 @@ const Original = ({ companyName }) => (
   </>
 );
 
-export default Original;
+export default Transaction001;
