@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TransactionList from "../TransactionList";
 
-const Transaction027 = ({ companyName }) => (
+const Transaction030 = ({ companyName }) => (
   <>
     <TransactionList activeStep={`010`} />
     <div className="board-wrapper">
@@ -84,17 +84,8 @@ const Transaction027 = ({ companyName }) => (
                 <span className="item-total">0</span>
               </li>
               <li>
-                <Link
-                  to="/028"
-                  style={{
-                    color: "inherit",
-                    cursor: "default",
-                    textDecoration: "none"
-                  }}
-                >
-                  <span className="item-name red">Premium Tax Expense</span>
-                  <span className="item-total">0</span>
-                </Link>
+                <span className="item-name red">Premium Tax Expense</span>
+                <span className="item-total">2</span>
               </li>
               <li>
                 <span className="item-name red">Depreciation Expense</span>
@@ -128,7 +119,7 @@ const Transaction027 = ({ companyName }) => (
                   <ul className="balance-sheet-assets">
                     <li>
                       <span className="item-name green">Cash</span>
-                      <span className="item-total">6</span>
+                      <span className="item-total">4</span>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>
@@ -228,7 +219,7 @@ const Transaction027 = ({ companyName }) => (
             </li>
             <li>
               <span className="item-name red">Taxing Authority</span>
-              <span className="item-total">0</span>
+              <span className="item-total">2</span>
             </li>
           </ul>
         </div>
@@ -255,4 +246,4 @@ const Transaction027 = ({ companyName }) => (
   </>
 );
 
-export default Transaction027;
+export default Transaction030;
