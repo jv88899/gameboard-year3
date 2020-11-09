@@ -17,7 +17,16 @@ const Transaction004 = ({ companyName }) => (
             <li>Employers</li>
             <li>Government</li>
           </ul>
-          <span className="item-total">40</span>
+          <Link
+            to="/005"
+            style={{
+              color: "inherit",
+              cursor: "default",
+              textDecoration: "none"
+            }}
+          >
+            <span className="item-total">40</span>
+          </Link>
         </div>
         <div className="customer-wrapper-wells-fargo-bank">
           <h5 className="green">
