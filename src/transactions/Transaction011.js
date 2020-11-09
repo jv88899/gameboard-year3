@@ -144,8 +144,17 @@ const Transaction011 = ({ companyName }) => (
                   <h5>Liabilities</h5>
                   <ul className="balance-sheet-liabilities">
                     <li>
-                      <span className="item-name blue">Claims Payable</span>
-                      <span className="item-total">0</span>
+                      <Link
+                        to="012"
+                        style={{
+                          color: "inherit",
+                          cursor: "default",
+                          textDecoration: "none"
+                        }}
+                      >
+                        <span className="item-name blue">Claims Payable</span>
+                        <span className="item-total">0</span>
+                      </Link>
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
