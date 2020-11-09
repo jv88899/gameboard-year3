@@ -198,8 +198,17 @@ const Transaction020 = ({ companyName }) => (
           <h5 className="green">Operating</h5>
           <ul className="operating-inner-list">
             <li>
-              <span className="item-name red">Pharmacies</span>
-              <span className="item-total">0</span>
+              <Link
+                to="/021"
+                style={{
+                  color: "inherit",
+                  cursor: "default",
+                  textDecoration: "none"
+                }}
+              >
+                <span className="item-name red">Pharmacies</span>
+                <span className="item-total">0</span>
+              </Link>
             </li>
             <li>
               <span className="item-name red">Medical Providers</span>
