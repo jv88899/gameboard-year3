@@ -45,6 +45,9 @@ const Router = () => {
         <Route path="/009" exact>
           <Transaction009 companyName={companyName} />
         </Route>
+        <Route path="/010" exact>
+          <Transaction010 companyName={companyName} />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
