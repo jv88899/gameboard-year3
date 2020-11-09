@@ -4,7 +4,7 @@ import TransactionList from "../TransactionList";
 
 const Transaction022 = ({ companyName }) => (
   <>
-    <TransactionList activeStep={`007`} />
+    <TransactionList activeStep={`008`} />
     <div className="board-wrapper">
       {/* customer section */}
       <div className="customer-wrapper">
@@ -72,8 +72,17 @@ const Transaction022 = ({ companyName }) => (
                 <span className="item-total">3</span>
               </li>
               <li>
-                <span className="item-name red">Medical Expense</span>
-                <span className="item-total">12</span>
+                <Link
+                  to="/023"
+                  style={{
+                    color: "inherit",
+                    cursor: "default",
+                    textDecoration: "none"
+                  }}
+                >
+                  <span className="item-name red">Medical Expense</span>
+                  <span className="item-total">12</span>
+                </Link>
               </li>
               <li>
                 <span className="item-name red">Administrative Expense</span>
