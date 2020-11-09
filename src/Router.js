@@ -9,6 +9,7 @@ import Transaction006 from "./transactions/Transaction006";
 import Transaction007 from "./transactions/Transaction007";
 import Transaction008 from "./transactions/Transaction008";
 import Transaction009 from "./transactions/Transaction009";
+import Transaction010 from "./transactions/Transaction010";
 
 const Router = () => {
   const companyName = "Medica";
