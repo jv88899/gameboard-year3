@@ -184,7 +184,7 @@ const Transaction049 = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">Unearned Premiums</span>
-                      <span className="item-total">5</span>
+                      <span className="item-total test-active">5</span>
                     </li>
                   </ul>
                 </div>

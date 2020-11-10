@@ -129,7 +129,7 @@ const Transaction007 = ({ companyName }) => (
                       <span className="item-name blue">
                         Premiums Receivable
                       </span>
-                      <span className="item-total">2</span>
+                      <span className="item-total test-active">2</span>
                     </li>
                     <li>
                       <span className="item-name blue">

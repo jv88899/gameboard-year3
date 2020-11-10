@@ -219,7 +219,7 @@ const Transaction052 = ({ companyName }) => (
             </li>
             <li>
               <span className="item-name red">Taxing Authority</span>
-              <span className="item-total">3</span>
+              <span className="item-total test-active">3</span>
             </li>
           </ul>
         </div>

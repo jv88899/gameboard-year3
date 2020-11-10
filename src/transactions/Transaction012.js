@@ -154,7 +154,7 @@ const Transaction012 = ({ companyName }) => (
                   <ul className="balance-sheet-liabilities">
                     <li>
                       <span className="item-name blue">Claims Payable</span>
-                      <span className="item-total">15</span>
+                      <span className="item-total test-active">15</span>
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
