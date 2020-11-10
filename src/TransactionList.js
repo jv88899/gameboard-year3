@@ -46,7 +46,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `5`,
       transactionNumber: `005`,
-      route: `014`,
+      route: `012`,
       description: `$3 of actual prescription filled; claim received`,
       activeStep: null,
       previousStep: null,
@@ -56,7 +56,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `6`,
       transactionNumber: `006`,
-      route: `016`,
+      route: `014`,
       description: `Pay actual claims of $4 received in Year 3 for Year 2 (IBNR Estimate); less than expected`,
       activeStep: null,
       previousStep: null,
@@ -76,7 +76,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `8`,
       transactionNumber: `008`,
-      route: `020`,
+      route: `022`,
       description: `Estimated claims for $6 not received for Year 3`,
       activeStep: null,
       previousStep: null,
@@ -86,7 +86,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `9`,
       transactionNumber: `009`,
-      route: `022`,
+      route: `024`,
       description: `Pay $1 to Medica's employees`,
       activeStep: null,
       previousStep: null,
@@ -96,7 +96,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `10`,
       transactionNumber: `010`,
-      route: `026`,
+      route: `027`,
       description: `Pay $2 of premium taxes to the Iowa Department of Revenue`,
       activeStep: null,
       previousStep: null,
@@ -106,7 +106,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `11`,
       transactionNumber: `011`,
-      route: `029`,
+      route: `030`,
       description: `Collect $1 on "old" premiums receivable; Fail to collect remaining $1 on "old" premiums receivable`,
       activeStep: null,
       previousStep: null,
@@ -116,7 +116,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `12`,
       transactionNumber: `012`,
-      route: `031`,
+      route: `034`,
       description: `Pay bill of $1 for postage from Year 2`,
       activeStep: null,
       previousStep: null,
@@ -126,7 +126,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `13`,
       transactionNumber: `013`,
-      route: `034`,
+      route: `037`,
       description: `Reimburse employees for $1 of travel and client dining expenses Year 3`,
       activeStep: null,
       previousStep: null,
@@ -136,7 +136,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `14`,
       transactionNumber: `014`,
-      route: `037`,
+      route: `040`,
       description: `Owe $1 to brokers for selling Commercial, IFB and Medicare policies`,
       activeStep: null,
       previousStep: null,
@@ -146,7 +146,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
     {
       stepNumber: `15`,
       transactionNumber: `015`,
-      route: `041`,
+      route: `042`,
       description: `Use 1/5th of 401 and 301 Carlson Parkway buildings for Year 3`,
       activeStep: null,
       previousStep: null,
