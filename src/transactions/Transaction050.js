@@ -85,7 +85,7 @@ const Transaction050 = ({ companyName }) => (
               </li>
               <li>
                 <span className="item-name red">Premium Tax Expense</span>
-                <span className="item-total test-active">3</span>
+                <span className="item-total">2</span>
               </li>
               <li>
                 <span className="item-name red">Depreciation Expense</span>
@@ -99,7 +99,7 @@ const Transaction050 = ({ companyName }) => (
                 <span className="item-name red">
                   Federal Income Tax Expense
                 </span>
-                <span className="item-total">0</span>
+                <span className="item-total test-active">1</span>
               </li>
             </ul>
             <div className="totals-wrapper">
