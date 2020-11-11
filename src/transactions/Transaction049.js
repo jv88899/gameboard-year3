@@ -84,17 +84,8 @@ const Transaction049 = ({ companyName }) => (
                 <span className="item-total">1</span>
               </li>
               <li>
-                <Link
-                  to="/050"
-                  style={{
-                    color: "inherit",
-                    cursor: "default",
-                    textDecoration: "none"
-                  }}
-                >
-                  <span className="item-name red">Premium Tax Expense</span>
-                  <span className="item-total">2</span>
-                </Link>
+                <span className="item-name red">Premium Tax Expense</span>
+                <span className="item-total">2</span>
               </li>
               <li>
                 <span className="item-name red">Depreciation Expense</span>
@@ -105,10 +96,19 @@ const Transaction049 = ({ companyName }) => (
                 <span className="item-total">1</span>
               </li>
               <li>
-                <span className="item-name red">
-                  Federal Income Tax Expense
-                </span>
-                <span className="item-total">0</span>
+                <Link
+                  to="/050"
+                  style={{
+                    color: "inherit",
+                    cursor: "default",
+                    textDecoration: "none"
+                  }}
+                >
+                  <span className="item-name red">
+                    Federal Income Tax Expense
+                  </span>
+                  <span className="item-total">0</span>
+                </Link>
               </li>
             </ul>
             <div className="totals-wrapper">
