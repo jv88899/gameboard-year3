@@ -57,7 +57,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       stepNumber: `6`,
       transactionNumber: `006`,
       route: `014`,
-      description: `Pay actual claims of $4 received in Year 3 for Year 2 (IBNR Estimate); less than expected`,
+      description: `Pay actual claims of $1 received in Year 3 for Year 2 (IBNR Estimate); less than expected`,
       activeStep: null,
       previousStep: null,
       visible: true,
