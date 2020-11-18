@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import TransactionList from "../TransactionList";
 
-const Transaction052 = ({ companyName }) => (
+const Transaction053 = ({ companyName }) => (
   <>
     <TransactionList activeStep={null} />
     <div className="board-wrapper">
@@ -246,4 +245,4 @@ const Transaction052 = ({ companyName }) => (
   </>
 );
 
-export default Transaction052;
+export default Transaction053;
