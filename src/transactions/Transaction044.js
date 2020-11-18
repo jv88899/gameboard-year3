@@ -98,7 +98,7 @@ const Transaction044 = ({ companyName }) => (
               </li>
               <li>
                 <span className="item-name red">Depreciation Expense</span>
-                <span className="item-total test-active">1</span>
+                <span className="item-total">1</span>
               </li>
               <li>
                 <span className="item-name">Investment Income</span>
@@ -144,7 +144,7 @@ const Transaction044 = ({ companyName }) => (
                       <span className="item-name blue">
                         Property & Equipment
                       </span>
-                      <span className="item-total">3</span>
+                      <span className="item-total test-active">3</span>
                     </li>
                   </ul>
                 </div>
