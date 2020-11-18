@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TransactionList from "../TransactionList";
 
-const Transaction046 = ({ companyName }) => (
+const Transaction047 = ({ companyName }) => (
   <>
     <TransactionList activeStep={`017`} />
     <div className="board-wrapper">
@@ -18,7 +18,7 @@ const Transaction046 = ({ companyName }) => (
             <li>Government</li>
           </ul>
           <Link
-            to="/047"
+            to="/048"
             style={{
               color: "inherit",
               cursor: "default",
@@ -255,4 +255,4 @@ const Transaction046 = ({ companyName }) => (
   </>
 );
 
-export default Transaction046;
+export default Transaction047;
