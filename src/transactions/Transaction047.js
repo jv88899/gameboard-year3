@@ -17,7 +17,16 @@ const Transaction047 = ({ companyName }) => (
             <li>Employers</li>
             <li>Government</li>
           </ul>
-          <span className="item-total test-active">12</span>
+          <Link
+            to="/048"
+            style={{
+              color: "inherit",
+              cursor: "default",
+              textDecoration: "none"
+            }}
+          >
+            <span className="item-total">17</span>
+          </Link>
         </div>
         <div className="customer-wrapper-wells-fargo-bank">
           <h5 className="green">
@@ -26,7 +35,7 @@ const Transaction047 = ({ companyName }) => (
           <span className="item-total">5</span>
         </div>
         <div className="customer-wrapper-us-bank">
-          <h5 className="green">Us Bank</h5>
+          <h5 className="green">US Bank</h5>
           <span className="item-total">4</span>
         </div>
       </div>
@@ -93,7 +102,7 @@ const Transaction047 = ({ companyName }) => (
               </li>
               <li>
                 <span className="item-name">Investment Income</span>
-                <span className="item-total">1</span>
+                <span className="item-total test-active">1</span>
               </li>
               <li>
                 <span className="item-name red">
@@ -118,17 +127,8 @@ const Transaction047 = ({ companyName }) => (
                   <h5>Assets</h5>
                   <ul className="balance-sheet-assets">
                     <li>
-                      <Link
-                        to="/048"
-                        style={{
-                          color: "inherit",
-                          cursor: "default",
-                          textDecoration: "none"
-                        }}
-                      >
-                        <span className="item-name green">Cash</span>
-                        <span className="item-total">4</span>
-                      </Link>
+                      <span className="item-name green">Cash</span>
+                      <span className="item-total">4</span>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>

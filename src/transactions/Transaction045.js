@@ -26,8 +26,8 @@ const Transaction045 = ({ companyName }) => (
           <span className="item-total">5</span>
         </div>
         <div className="customer-wrapper-us-bank">
-          <h5 className="green">Us Bank</h5>
-          <span className="item-total">4</span>
+          <h5 className="green">US Bank</h5>
+          <span className="item-total test-active">3</span>
         </div>
       </div>
       {/* income statement and balance sheet section */}
@@ -92,17 +92,8 @@ const Transaction045 = ({ companyName }) => (
                 <span className="item-total">1</span>
               </li>
               <li>
-                <Link
-                  to="/046"
-                  style={{
-                    color: "inherit",
-                    cursor: "default",
-                    textDecoration: "none"
-                  }}
-                >
-                  <span className="item-name">Investment Income</span>
-                  <span className="item-total">0</span>
-                </Link>
+                <span className="item-name">Investment Income</span>
+                <span className="item-total">0</span>
               </li>
               <li>
                 <span className="item-name red">
@@ -127,8 +118,17 @@ const Transaction045 = ({ companyName }) => (
                   <h5>Assets</h5>
                   <ul className="balance-sheet-assets">
                     <li>
-                      <span className="item-name green">Cash</span>
-                      <span className="item-total test-active">4</span>
+                      <Link
+                        to="/046"
+                        style={{
+                          color: "inherit",
+                          cursor: "default",
+                          textDecoration: "none"
+                        }}
+                      >
+                        <span className="item-name green">Cash</span>
+                        <span className="item-total">3</span>
+                      </Link>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>

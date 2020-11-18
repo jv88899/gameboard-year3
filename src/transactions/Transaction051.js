@@ -26,7 +26,7 @@ const Transaction051 = ({ companyName }) => (
           <span className="item-total">5</span>
         </div>
         <div className="customer-wrapper-us-bank">
-          <h5 className="green">Us Bank</h5>
+          <h5 className="green">US Bank</h5>
           <span className="item-total">4</span>
         </div>
       </div>
@@ -99,7 +99,7 @@ const Transaction051 = ({ companyName }) => (
                 <span className="item-name red">
                   Federal Income Tax Expense
                 </span>
-                <span className="item-total">1</span>
+                <span className="item-total test-active">1</span>
               </li>
             </ul>
             <div className="totals-wrapper">
@@ -118,8 +118,17 @@ const Transaction051 = ({ companyName }) => (
                   <h5>Assets</h5>
                   <ul className="balance-sheet-assets">
                     <li>
-                      <span className="item-name green">Cash</span>
-                      <span className="item-total test-active">8</span>
+                      <Link
+                        to="/052"
+                        style={{
+                          color: "inherit",
+                          cursor: "default",
+                          textDecoration: "none"
+                        }}
+                      >
+                        <span className="item-name green">Cash</span>
+                        <span className="item-total">9</span>
+                      </Link>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>
@@ -218,17 +227,8 @@ const Transaction051 = ({ companyName }) => (
               <span className="item-total">1</span>
             </li>
             <li>
-              <Link
-                to="/052"
-                style={{
-                  color: "inherit",
-                  cursor: "default",
-                  textDecoration: "none"
-                }}
-              >
-                <span className="item-name red">Taxing Authority</span>
-                <span className="item-total">2</span>
-              </Link>
+              <span className="item-name red">Taxing Authority</span>
+              <span className="item-total">2</span>
             </li>
           </ul>
         </div>
