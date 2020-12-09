@@ -32,6 +32,7 @@ import Transaction029 from "./transactions/Transaction029";
 import Transaction030 from "./transactions/Transaction030";
 import Transaction031 from "./transactions/Transaction031";
 import Transaction032 from "./transactions/Transaction032";
+import Transaction033 from "./transactions/Transaction033";
 
 const Router = () => {
   const companyName = "Medica";
