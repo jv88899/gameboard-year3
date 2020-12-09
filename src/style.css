@@ -233,6 +233,7 @@ h5 {
 .balance-sheet ul li a,
 .operating-wrapper-inner ul li a,
 .investing-inner-list ul li a,
+.investing-inner-list li a,
 .financing-inner-list li a {
   align-items: center;
   display: flex;
@@ -261,7 +262,11 @@ h5 {
 }
 
 .operating-wrapper {
-  padding-top: 65px;
+  padding-top: 100px;
+}
+
+.operating-wrapper h5 {
+  margin: 0;
 }
 
 .test-active {
