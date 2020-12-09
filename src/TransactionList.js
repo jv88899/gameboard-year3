@@ -7,7 +7,7 @@ const TransactionList = ({ activeStep, canHighlightCashTransactions }) => {
       stepNumber: `1`,
       transactionNumber: `001`,
       route: `001`,
-      description: `Sale of $22 to customers for Year 3; increase due to expansion into new IFB states. Recognize $8 received in Year 2 for Year 3.`,
+      description: `Collect $35 for sale to customers for Year 3; increase due to expansion into new IFB states`,
       activeStep: null,
       previousStep: null,
       visible: true,
