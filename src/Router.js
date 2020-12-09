@@ -35,6 +35,7 @@ import Transaction032 from "./transactions/Transaction032";
 import Transaction033 from "./transactions/Transaction033";
 import Transaction034 from "./transactions/Transaction034";
 import Transaction035 from "./transactions/Transaction035";
+import Transaction036 from './transactions/Transaction036'
 
 const Router = () => {
   const companyName = "Medica";
@@ -148,6 +149,9 @@ const Router = () => {
         </Route>
         <Route path="/035" exact>
           <Transaction035 companyName={companyName} />
+        </Route>
+        <Route path='/036' exact>
+          <Transaction036 companyName={companyName} />
         </Route>
       </Switch>
     </BrowserRouter>
