@@ -230,9 +230,9 @@ const Transaction033 = ({ companyName }) => (
               <span className="item-name red">Carslon Properties</span>
               <span className="item-total">0</span>
             </li>
-            <li>
+            <li><Link to='/034' style={{color: 'inherit', cursor: 'default', textDecoration: 'none'}}>
               <span className="item-name red">US Bank</span>
-              <span className="item-total">0</span>
+              <span className="item-total">0</span></Link>
             </li>
           </ul>
         </div>
