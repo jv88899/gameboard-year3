@@ -96,10 +96,19 @@ const Transaction037 = ({ companyName }) => (
                 <span className="item-total test-active">1</span>
               </li>
               <li>
-                <span className="item-name red">
-                  Federal Income Tax Expense
-                </span>
-                <span className="item-total">0</span>
+                <Link
+                  to="/038"
+                  style={{
+                    color: "inherit",
+                    cursor: "default",
+                    textDecoration: "none"
+                  }}
+                >
+                  <span className="item-name red">
+                    Federal Income Tax Expense
+                  </span>
+                  <span className="item-total">0</span>
+                </Link>
               </li>
             </ul>
             <div className="totals-wrapper">
