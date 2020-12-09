@@ -118,27 +118,27 @@ const Transaction002 = ({ companyName }) => (
                   <h5>Assets</h5>
                   <ul className="balance-sheet-assets">
                     <li>
-                      <span className="item-name green">Cash</span>
-                      <span className="item-total">2</span>
-                    </li>
-                    <li>
-                      <span className="item-name blue">Investments</span>
-                      <span className="item-total">0</span>
-                    </li>
-                    <li>
                       <Link
-                        to="/002"
+                        to="/003"
                         style={{
                           color: "inherit",
                           cursor: "default",
                           textDecoration: "none"
                         }}
                       >
-                        <span className="item-name blue">
-                          Premiums Receivable
-                        </span>
-                        <span className="item-total">0</span>
+                        <span className="item-name green">Cash</span>
+                        <span className="item-total">2</span>
                       </Link>
+                    </li>
+                    <li>
+                      <span className="item-name blue">Investments</span>
+                      <span className="item-total">0</span>
+                    </li>
+                    <li>
+                      <span className="item-name blue">
+                        Premiums Receivable
+                      </span>
+                      <span className="item-total">0</span>
                     </li>
                     <li>
                       <span className="item-name blue">
