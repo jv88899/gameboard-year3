@@ -27,7 +27,16 @@ const Transaction034 = ({ companyName }) => (
         </div>
         <div className="customer-wrapper-us-bank">
           <h5 className="green">US Bank</h5>
-          <span className="item-total">10</span>
+          <Link
+            to="/035"
+            style={{
+              color: "inherit",
+              cursor: "default",
+              textDecoration: "none"
+            }}
+          >
+            <span className="item-total">10</span>
+          </Link>
         </div>
       </div>
       {/* income statement and balance sheet section */}
