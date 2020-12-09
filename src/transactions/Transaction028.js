@@ -80,8 +80,8 @@ const Transaction028 = ({ companyName }) => (
                 <span className="item-total">3</span>
               </li>
               <li>
-                  <span className="item-name red">Broker Expense</span>
-                  <span className="item-total test-active">2</span>
+                <span className="item-name red">Broker Expense</span>
+                <span className="item-total test-active">2</span>
               </li>
               <li>
                 <span className="item-name red">Premium Tax Expense</span>
@@ -155,9 +155,9 @@ const Transaction028 = ({ companyName }) => (
                       <span className="item-name blue">Salary Payable</span>
                       <span className="item-total">0</span>
                     </li>
-                    <li>
+                    <li><Link to='/029' style={{color: 'inherit', cursor: 'default', textDecoration: 'none'}}>
                       <span className="item-name blue">Broker Payable</span>
-                      <span className="item-total">0</span>
+                      <span className="item-total">0</span></Link>
                     </li>
                     <li>
                       <span className="item-name blue">Accounts Payable</span>
