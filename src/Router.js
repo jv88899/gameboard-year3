@@ -106,7 +106,7 @@ const Router = () => {
         <Route path="/024" exact>
           <Transaction024 companyName={companyName} />
         </Route>
-        <Route path='/025' exact>
+        <Route path="/025" exact>
           <Transaction025 companyName={companyName} />
         </Route>
       </Switch>
