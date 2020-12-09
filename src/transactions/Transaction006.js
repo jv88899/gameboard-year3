@@ -240,8 +240,17 @@ const Transaction006 = ({ companyName }) => (
           <h5 className="green">Financing</h5>
           <ul className="financing-inner-list">
             <li>
-              <span className="item-name red">Wells Fargo Bank</span>
-              <span className="item-total">0</span>
+              <Link
+                to="/007"
+                style={{
+                  color: "inherit",
+                  cursor: "default",
+                  textDecoration: "none"
+                }}
+              >
+                <span className="item-name red">Wells Fargo Bank</span>
+                <span className="item-total">0</span>
+              </Link>
             </li>
           </ul>
         </div>
