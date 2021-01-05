@@ -4,7 +4,7 @@ import TransactionList from "../TransactionList";
 
 const Transaction041 = ({ companyName }) => (
   <>
-    <TransactionList activeStep={`014`} />
+    <TransactionList activeStep={null} />
     <div className="board-wrapper">
       {/* customer section */}
       <div className="customer-wrapper">
