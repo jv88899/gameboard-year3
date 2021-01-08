@@ -2,7 +2,7 @@ import React from "react";
 import ConfettiGenerator from "confetti-js";
 import { Link } from "react-router-dom";
 
-function EndModal() {
+function EndModal({ hideModal }) {
   React.useEffect(() => {
     const width = window.innerWidth * 0.97;
     const height = window.innerHeight * 0.97;
@@ -10,7 +10,7 @@ function EndModal() {
     const confettiSettings = {
       target: "my-canvas",
       height: height,
-      width: width
+      width: width,
     };
     const confetti = new ConfettiGenerator(confettiSettings);
     confetti.render();
@@ -36,14 +36,14 @@ function EndModal() {
           height: "175px",
           width: "350px",
           boxShadow: `4px 5px 4px 0px rgba(0,0,0,0.2)`,
-          padding: `2px`
+          padding: `2px`,
         }}
       >
         <h2>Great job!</h2>
         <p>
           You are finished! Now it is time to complete the financial statement.
         </p>
-        <Link to='/001'>START OVER</Link>
+        <button onClick={hideModal}>Ok</button>
       </div>
     </div>
   );
