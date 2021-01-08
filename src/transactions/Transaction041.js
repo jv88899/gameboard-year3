@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TransactionList from "../TransactionList";
+import EndModal from "../EndModal.js";
 
 const Transaction041 = ({ companyName }) => (
   <>
@@ -247,6 +248,7 @@ const Transaction041 = ({ companyName }) => (
         </div>
       </div>
     </div>
+    <EndModal />
   </>
 );
 
