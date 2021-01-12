@@ -41,7 +41,7 @@ function EndModal({ hideModal }) {
       >
         <h2>Great job!</h2>
         <p>
-          You are finished! Now it is time to complete the financial statement.
+          You are finished! Now it is time to complete the financial reports.
         </p>
         <button onClick={hideModal}>Ok</button>
       </div>
